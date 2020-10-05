@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background-color: #111;
+    color: #777;
+  }
+
+  img{
+      max-width: 100%;
+      display: block;
+  }
+
+  .bloks1{
+    margin: 10px 0;
+  }
+
+  .bloks2 {
+    display: inline-block;
+    width: 33%;
+  }
+
+  h3{
+      font-size: 1.6rem;
+  }
+
+  p { 
+    font-size: 1.2rem;
+  }
+
+  

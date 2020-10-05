@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.stroke {
+    -webkit-text-stroke: 0.3px black;
+}
+
+header {
+    min-height: 100vh;
+    background-image: url(https://picsum.photos/id/1048/1920/1080);
+    background-position: center;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 4rem;
+}
+
+header p {
+    font-size: 2.5rem;
+}
+
+.btn:hover {
+    padding: 6px 50px;
+    transition: linear 0.3s;
+}
+
+
+main h3 {
+    color: #fb9956;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+main p {
+    font-size: 1.5rem;
+}
+
+.main-footer {
+    min-height: 90vh;
+    background-image: url(https://rcs.2com.lv/assets/templates/landing/img/bg-footer-min.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+footer p {
+    font-size: 1.5rem;
+}

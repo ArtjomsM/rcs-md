@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>md6</title>
+</head>
+
+<body>
+
+    <script>
+        // cikli
+        // 1.
+        let a;
+        for (a = 0; a < 10; a++) {
+            console.log('Sveiki!')
+        }
+
+        console.log('----------------');
+        // 2.
+        a = 0;
+        while (a < 10) {
+            console.log('Sveiki!')
+            a++;
+        }
+
+        console.log('----------------');
+        // 3.
+        a = 0;
+        do {
+            console.log('Sveiki!')
+            a++;
+        } while (a < 10);
+
+        console.log('----------------');
+        // 4.
+        let i, j;
+        for (i = 0; i < 5; i++) {
+            console.log('pirmā mainīgā vērtība ir ' + i);
+            for (j = 0; j < 5; j++) {
+                console.log('otrā mainīgā vērtība ir ' + j);
+            }
+        }
+        // Dators ciklu izpilda no sākumā uz beigām, jeb sāk pildīt pirmo ciklu, 
+        // izvada tā māinīgo vērtību, nākamā rindiņa ir ka sākās jauns cikls, izpilda to, 
+        // jeb izvada visas tā cikla mainīgā vērtības, tad sāk no jauna, pāriet pie pirmā, 
+        // izvada vienu savu vērtību tad izpilda otro u.t.t.
+
+        console.log('----------------');
+        // 5.
+        i = 0;
+        for (i = 0; i < 5; i++) {
+            console.log('pirmā mainīgā vērtība ir ' + i);
+            for (i = 0; i < 5; i++) {
+                console.log('otrā mainīgā vērtība ir ' + i);
+            }
+        }
+        // Šeit dators sāk pildīt pirmo ciklu izprintē vērtību un ieiet otrajā ciklā, 
+        // izprintē to pašu vērtību, jo pirmais cikls nebija beidzies un vērtība vēl nebija 
+        // palielinājusies, ar to beidzās otrā cikla pirmā iterācija, palielina par 1 izprintē, 
+        // tā tas notiek 5 reizes, un tā kā abos ciklos ir izmantots viens mainīgais, tas 
+        // sasniedz tādu vērtību otrajā ciklā, ka pirmā nosacījumi vairs neizpildās 
+
+
+        // Switch-case
+        // 1.
+        x = +prompt('Ievadiet skatili no 1 līdz 5');
+        // 2.
+        switch (x) {
+            case 1: alert('viens');
+            break;
+            case 2: alert('divi');
+            break;
+            case 3: alert('trīs');
+            break;
+            case 4: alert('četri');
+            break;
+            case 5: alert('pieci');
+            break;
+            default: alert('Šim skaitlim nav vārdiskās vērtības'); // 3.
+        }
+    </script>
+</body>
+
+</html>

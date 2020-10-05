@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.white-with-stroke {
+    color: #fff;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    position: fixed;
+    background-color: #fb9956;
+    padding: 3px;
+}
+
+
+header {
+    background-image: url(https://picsum.photos/id/1048/1900/800);
+    background-position: center;
+    background-size: cover;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.row h1 {
+    font-size: 3rem;
+    margin-bottom: calc(100vh / 120);
+}
+
+.row p {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.row a {
+    margin-top: calc(100vh /8);
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #fb9956;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    padding: 10px 100px;
+    transition: linear 0.3s;
+}
+
+main {
+    /* min-height: 150vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.workplace {
+    display: flex;
+}
+
+.section-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.first {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.first-workplace .section-col {
+    padding-right: 40px;
+}
+
+.section-col h3 {
+    color: #fb9956;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.section-col p {
+    font-size: 1.6rem;
+}
+
+.first .section-col {
+    padding-right: 40px;
+}
+
+.second {
+    margin-bottom: 5%;
+}
+
+.second .section-col {
+    padding-left: 40px;
+}
+
+.main-footer {
+    min-height: 90vh;
+    background-image: url(https://rcs.2com.lv/assets/templates/landing/img/bg-footer-min.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    min-height: 30vh;
+    background-color: #fb9956; 
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.all-footer-cols {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer-col ul{
+    list-style: none;
+    line-height: 20px;
+}
+
+.footer-col p {
+    font-size: 1.4rem;
+    line-height: 40px;
+}
+
+.copyright-inf {
+    background-color: #fb9956; 
+    color: #fff;
+    text-align: center;
+    border-top: 2px double gray;
+    padding-top: 5px;
+}

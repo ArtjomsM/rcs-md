@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5md</title>
+</head>
+
+<body>
+    
+    <script>
+        // Konstantas
+        const g = 9.8;
+        let m = 80;
+        let F = m * g;
+        console.log('ar masu ' + m + 'kg un brīvās krišanas pāatrinājumu ' + g + 'm/s^2 svars ņutonos ir vienāds ar ' + F + 'N');
+        console.log('---------------');
+
+        //Tipu mainīšana
+        let a = '12.5', b = '-5.7';
+        console.log(a + b);
+        a = Number(a);
+        b = Number(b);
+        console.log(a + b);
+        console.log('---------------');
+
+        // Matemātiskās darbības
+        console.log('Vienādojuma ar skaitļiem rezultāts ir ' + ((8 + 15) / ((14 - 9) * (7.8 - 15 * 14))));
+        let c = 8, d = 15, e = 14, f = 9, h = 7.8;
+        console.log('Vienādojuma ar mainīgajiem rezultāts ir ' + ((c + d) / ((e - f) * (h - d * e))));
+        let x = ((8 + 15) / ((14 - 9) * (7.8 - 15 * 14)));
+        let y = ((c + d) / ((e - f) * (h - d * e)));
+        if (x === y) {
+            console.log('Rezultāti ir identiski');
+        } else {
+            console.log('Rezultāti nesakrīt');
+        }
+        console.log('\n');
+
+        let i = '12', j = '40';
+        console.log('apvienojot string vērtības sanāca ' + (i + j));
+        console.log('string vērtības izlaižot caur funkciju Number un apvienojot tās, sanāca ' + (Number(i) + Number(j)));
+        // console.log(+i + +j);
+        console.log('Rezultāti atšķirās jo pirmajā gadījumā mainigajiem ir stringa tips un apvienojot tos, tie neskaitās kā skaitļi, un apvienojās apstājoties blakus viens otram, tāpat kā to būtu izdarījis teksts, savukārt otrajā gadījumā, funkcija Number nomaina mainīgo tipu uz number un tagad ar tiem ir iespējams veikt matemātiskās darbības, kā ar skaitļiem, jeb apvienojot iegūstam matemātiski pareizu atbildi')
+        console.log('---------------');
+
+        // Salīdzināšanas darbības
+        let k = (100 * 200 > 200 * 100);
+        console.log(k);
+        let l = (400 > 300);
+        console.log(l);
+        console.log(0 == false);
+        console.log(0 === false);
+        console.log('Salīdzinot 0 ar false, pirmajā gadījumā, ar diviem =, sanāk true, jo vērtības sakrīt, ar ko pietiek lai iegūtu true, otrajā gadījumā salīdzina ne tikai vērtbīas, bet arī veidu, kas nesakrīt un iznāk false')
+        console.log('---------------');
+
+        // Loģiskās darbības
+        console.log((5 < 6 || (true && (5 >= 5 && (false || true) && (true && true)))));
+        console.log('---------------');
+
+        // Nosacījums
+        m = true;
+        if (m == true) {
+            console.log('Vīrietis');
+        } else {
+            console.log('Sieviete');
+        }
+
+        n = 20;
+        if (n > 80) {
+            console.log('Esmu seniors');
+        } else if (n > 50) {
+            console.log('Esmu pieaudzis');
+        } else if (n > 30) {
+            console.log('Esmu pusmūžā');
+        } else if (n >= 18) {
+            console.log('Esmu jauns');
+        } else {
+            console.log('Esmu jaunietis');
+        }
+
+        let vecums = (n > 80) ? console.log('Esmu seniors') : (n > 50) ? console.log('Esmu pieaudzis') : (n > 30) ? console.log('Esmu pusmūžā') : (n >= 18) ? console.log('Esmu jauns') : console.log('Esmu jaunietis');
+
+    </script>
+
+</body>
+
+</html>
