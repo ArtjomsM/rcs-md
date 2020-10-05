@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    color: gray;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 1px black;
+}
+
+.font-size-2 {
+    font-size: 2rem;
+}
+
+.font-size-1_5 {
+    font-size: 1.5rem;
+}
+
+.font-size-1_2 {
+    font-size: 1.2rem;
+}
+
+.font-size-0_7 {
+    font-size: 0.7rem;
+}
+
+header {
+    background-image: url(../img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+header .row {
+    min-height: 30vh;
+}
+
+.heading::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 35px);
+    height: 2.5px;
+    width: 70px;
+    background-color: white;
+}
+
+nav::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: rgb(243, 220, 220);
+    box-shadow: 1px 1px 1px rgb(243, 233, 233);
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: blueviolet !important;
+}
+
+.section-heading {
+    position: relative;
+}
+
+section h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 35px);
+    height: 2.5px;
+    width: 70px;
+    background-color: rgb(189, 82, 82);
+}
+
+.web-icon {
+    background-image: url(../img/about/dashboard.png);
+    width: 64px;
+    height: 64px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ipad-icon {
+    background-image: url(../img/about/ipad.png);
+    width: 64px;
+    height: 64px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.marketing-icon {
+    background-image: url(../img/about/goal.png);
+    width: 64px;
+    height: 64px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section a:hover {
+    text-decoration: none;
+    color:  rgb(189, 82, 82) !important;
+}
+
+.photo {
+    background-image: url(https://picsum.photos/id/0/600/500);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-partners {
+    background-image: url(../img/partners-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact button {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: gainsboro !important;
+}

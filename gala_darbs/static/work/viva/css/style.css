@@ -1,0 +1,180 @@
+p {
+    font-size: 0.8rem;
+}
+
+.hover-outline a:hover {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: -2px;
+}
+
+.hover-underline a:hover {
+    border-bottom: 10px solid white;
+    margin-bottom: -10px;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+header {
+    text-shadow: 1px 1px 1px black;
+}
+
+header h5 {
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+header p {
+    font-size: 2.5rem;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.position {
+    position: absolute;
+    bottom: calc(50% - 55px);
+    padding: 0;
+}
+
+.foto-link {
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+}
+
+.foto-link:hover {
+    cursor: pointer;
+}
+
+.foto-link h5 {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.foto-link h6 {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.foto-link:hover h5 {
+    transform: translateY(-7px);
+    transition: all 0.3s;
+}
+
+.foto-link:hover h6 {
+    transform: translateY(7px);
+    transition: all 0.3s;
+}
+
+.bg-map::before {
+    content: "";
+    background-image: url(https://www.atlasdigitalmaps.com/media/catalog/product/b/r/brazilcountryroadraildet2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+}
+
+.extras h5 {
+    font-size: 1rem;
+}
+
+.font-size-2 {
+    font-size: 2rem;
+}
+
+.font-size-1_2{
+    font-size: 1.2rem;
+}
+
+.font-size-0_7 {
+    font-size: 0.7rem;
+}
+
+.bg-bird {
+    background-position: left;
+    min-height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://vivaexpeditions.com/themes/base/production/images/homepage-custom-tours-bg_mini.jpg);
+}
+
+.bg-dark button {
+    color: #fff;
+    border-color: #fff;
+}
+
+.bg-lake {
+    background-image: url('https://vivaexpeditions.com/assets/Blog/FeaturedImages/_resampled/CroppedFocusedImageWyIyODUiLCI0MDUiLCJ4IiwxNjJd/By-FOTOGRIN-shutterstock-710456194-1000.jpg');
+    height: 405px;
+}
+
+.bg-beans {
+    background-image: url('https://vivaexpeditions.com/assets/Blog/FeaturedImages/_resampled/CroppedFocusedImageWyIyODUiLCI0MDUiLCJ4IiwxNjRd/gustavo-ramirez-shutterstock-765561112-coffee-800.jpg');
+    height: 405px;
+}
+
+.bg-hills {
+    background-image: url('https://vivaexpeditions.com/assets/Blog/FeaturedImages/_resampled/CroppedFocusedImageWyIyODUiLCIyNjQiLCJ4Iiw1NV0/By-Aleksandra-H.-Kossowska-shutterstock-298363703-800.jpg');
+    background-size: 100% 110px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.bg-street {
+    background-image: url('https://vivaexpeditions.com/assets/Blog/FeaturedImages/_resampled/CroppedFocusedImageWyIyODUiLCIyNjQiLCJ4IiwzMF0/Joe-Tabacca-shutterstock-800.jpg');
+    background-size: 100% 180px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.bg-dark button::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 405px;
+}
+
+.bg-dark hr{
+    background-color: black;
+    height: 0.5px;
+    width: 50%;
+}
+
+ul li {
+    line-height: 1.7;
+}
+
+footer .bg-light {
+    height: 90px;
+}
+
+.height_90 {
+    height: 90px;
+}
+
+footer .bg-light::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 90px;
+    width: 100%;
+    height: 0.5px;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
+    z-index: 100;
+  }
